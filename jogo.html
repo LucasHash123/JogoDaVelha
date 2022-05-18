@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    <img src="/img/c1bbe6f49d4ffad1ec2ef4bbcc494c84.png" alt="Velha" class="displayed">
+
+    <div>
+        <h1 class="jogo">Jogo</h1>
+        <h1 class="da">da</h1>
+        <h1 class="Velha">Velha</h1>
+        <h3>luskhash produções</h3>
+    </div>
+
+    <div class="board" data-board>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" data-winning-message>
+        <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+        <button class="winning-message-button" data-restart-button>
+          Reiniciar!
+        </button>
+      </div>
+      <script src="./scripts.js"></script>
+</body>
+</html>
